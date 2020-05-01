@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Table, Tag } from 'antd';
+import { Table } from 'antd';
 import { checkAuth, getHistory } from './ApiService';
 import { Nav } from './Compare';
 const columns = [

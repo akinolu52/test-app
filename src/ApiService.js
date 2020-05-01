@@ -1,5 +1,5 @@
-import nock from 'nock';
-import axios from 'axios' // v0.15.3
+
+import axios from 'axios'
 import httpAdapter from 'axios/lib/adapters/http'
 
 export const url = 'https://35cead21-e647-4a26-88ac-a58af01452ad.mock.pstmn.io';
