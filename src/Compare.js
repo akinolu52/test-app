@@ -62,7 +62,7 @@ function Compare(props) {
         return e && e.fileList;
     };
     return (
-        <>
+        <div style={{ padding: "4rem 10rem" }}>
             <Nav history={props.history} />
             <section style={{ textAlign: 'center', marginTop: 48, marginBottom: 60 }}>
                 <Title level={2}>
@@ -148,7 +148,7 @@ function Compare(props) {
                     </Button>
                 </Form.Item>
             </Form >
-        </>
+        </div>
     )
 }
 
