@@ -15,7 +15,7 @@ function Login(props) {
     };
 
     return (
-        <>
+        <div className="pad">
             <section style={{ textAlign: 'center', marginTop: 48, marginBottom: 60 }}>
                 <Title level={2}>
                     Mock Test
@@ -59,7 +59,7 @@ function Login(props) {
                     </Button>
                 </Form.Item>
             </Form>
-        </>
+        </div>
     )
 }
 

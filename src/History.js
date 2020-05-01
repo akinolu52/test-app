@@ -49,7 +49,7 @@ function History(props) {
     }, []);
 
     return (
-        <div style={{ padding: "4rem 10rem" }}>
+        <div className="pad">
             <Nav history={props.history} />
             <Table columns={columns} dataSource={!loading ? data : []} loading={loading} />
         </div>
