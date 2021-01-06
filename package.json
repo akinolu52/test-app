@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^4.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.13.0",
     "chai": "^4.2.0",
     "customize-cra": "^0.9.1",
